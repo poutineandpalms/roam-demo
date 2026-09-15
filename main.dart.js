@@ -30373,7 +30373,7 @@ if(m.b!==200){q=null
 s=1
 break}k=m
 l=A.bV(t.f.a(B.aT.nF(A.k0(A.jY(k.e)).dJ(k.w),null)).h(0,"build"))
-if(l==null||l.length===0||l==="6310f11"){q=null
+if(l==null||l.length===0||l==="b6e8db0"){q=null
 s=1
 break}q=l
 s=1
@@ -100503,7 +100503,7 @@ g=A.fv("https://api.groq.com/openai/v1/chat/completions")
 f=t.N
 e=A.ag(["Content-Type","application/json","Authorization","Bearer "+a],f,f)
 s=7
-return A.x(A.aJO(g,B.aT.Cr(A.ag(["model","openai/gpt-oss-20b","messages",A.b([A.ag(["role","user","content",b],f,f)],t.m0),"max_tokens",300,"temperature",0.9],f,t.K),null),e).fO(B.pn),$async$mN)
+return A.x(A.aJO(g,B.aT.Cr(A.ag(["model","openai/gpt-oss-20b","messages",A.b([A.ag(["role","user","content",b],f,f)],t.m0),"reasoning_effort","low","max_tokens",600,"temperature",0.9],f,t.K),null),e).fO(B.pn),$async$mN)
 case 7:m=a1
 if(m.b===429){n.a33(m)
 q=null
@@ -101896,7 +101896,7 @@ j.push(A.TN(e,B.J7,!0,new A.aBJ(h)))}j.push(B.dD)
 j.push(h.acp(a))
 j.push(B.Tn)
 e=A.P(a).ok.Q
-j.push(A.lB(A.bD("Roam demo build 6310f11",g,g,g,e==null?g:e.bf(A.P(a).ay),g,g),g,g))
+j.push(A.lB(A.bD("Roam demo build b6e8db0",g,g,g,e==null?g:e.bf(A.P(a).ay),g,g),g,g))
 e=A.ag([null,0],t.LO,t.S)
 r=j.length
 return new A.Cg(new A.ao4(!0,!0,!0,j,e),B.l_,B.as,!1,g,g,B.k9,g,!1,g,0,g,g,r,B.n3,B.aw,g,g,B.J,B.aF,g)},
