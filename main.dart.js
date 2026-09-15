@@ -95608,7 +95608,7 @@ if(f.c)b.push("architecture")
 if(f.d)b.push("hidden gems")
 n="You are Roam, a friendly tour guide speaking through a solo traveler's headphones as they explore a city. Write a short SPOKEN narration \u2014 no lists, no emojis, no markdown, plain conversational sentences.\n\nThe place: "+a3.b+" ("+d+" "+a1+").\nKnown facts: "+A.j(c)+" [source: "+a3.f+"]\nThe listener is into: "+B.b.by(b,", ")+".\nChattiness: "+a4.b.b+" (quiet = one crisp sentence; balanced = two or three; chatty = a vivid little story, up to five sentences).\n\nSound like a friend who knows the city, not a textbook. If the facts are thin, say one honest, charming line about the place rather than inventing details."
 p=4
-c=A.ft("https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent")
+c=A.ft("https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent")
 b=t.N
 f=A.ag(["Content-Type","application/json","x-goog-api-key",a0],b,b)
 s=7
